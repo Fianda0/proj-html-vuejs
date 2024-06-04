@@ -8,7 +8,7 @@ const ilMioOggettone = {
         'Showcase',
         'Blog',
         'Contact'
-    ]
+    ],
 };
 
 const iMieiDati = reactive(ilMioOggettone);
