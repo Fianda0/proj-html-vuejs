@@ -62,7 +62,7 @@ h2 {
 }
 
 #services {
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(240, 240, 240);
 }
 
 .cardServices {
