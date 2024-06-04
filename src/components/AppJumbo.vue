@@ -40,7 +40,7 @@ export default {
                 <div class="col-5 slideSx">
                     <p class="color-green">17 YEARS OF EXPERIENCE</p>
                     <h2>{{ store.slidesJumbo[slideActive].title }}</h2>
-                    <hr>
+                    <hr class="line2">
                     <p class="">{{ store.slidesJumbo[slideActive].text }}</p>
                     <span><button>Read More</button></span>
 
@@ -76,6 +76,24 @@ img {
 
 p {
     padding: 0;
+    font-size: 0.8rem;
+}
+
+hr {
+    display: inline-block;
+    height: 0.5rem;
+    opacity: 1;
+    border-radius: 1rem;
+    background: rgb(148, 225, 96);
+    background: linear-gradient(90deg, rgba(148, 225, 96, 1) 0%, rgba(16, 218, 159, 1) 100%);
+}
+
+.line1 {
+    width: 15px;
+}
+
+.line2 {
+    width: 100px;
 }
 
 button {
@@ -84,6 +102,10 @@ button {
     color: white;
     border: 0px;
     border-radius: 2rem;
+}
+
+button:hover {
+    background-color: rgba(16, 218, 159, 1);
 }
 
 #jumbo {
@@ -103,5 +125,10 @@ button {
     margin: 0.5rem;
     padding: 0 0.5rem;
     border-radius: 50%;
+}
+
+.btn:hover {
+    transition: 1s;
+    background-color: rgba(16, 218, 159, 1);
 }
 </style>

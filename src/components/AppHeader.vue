@@ -71,6 +71,12 @@ button {
     border-radius: 2rem;
 }
 
+button:hover {
+    transition: 1s;
+    background: #222;
+}
+
+
 header {
     height: 10rem;
     position: sticky;

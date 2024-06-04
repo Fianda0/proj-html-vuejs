@@ -21,6 +21,8 @@ export default {
                 <h2>look More</h2>
                 <h2 class="color-green">Elegant</h2>
                 <h2>And Stulish!</h2>
+                <hr>
+                <button>VIEW ALL</button>
             </div>
             <div class="col-7">
                 <div class="row">
@@ -61,8 +63,31 @@ h2 {
     font-size: 3rem;
 }
 
+button {
+    padding: 0.5rem 1rem;
+    background: rgb(148, 225, 96);
+    background: linear-gradient(90deg, rgba(148, 225, 96, 1) 0%, rgba(16, 218, 159, 1) 100%);
+    color: white;
+    border: 0px;
+    border-radius: 2rem;
+}
+
+button:hover {
+    transition: 1s;
+    background: #222;
+}
+
 #services {
     background-color: rgb(240, 240, 240);
+}
+
+hr {
+    width: 100px;
+    height: 0.5rem;
+    opacity: 1;
+    border-radius: 1rem;
+    background: rgb(148, 225, 96);
+    background: linear-gradient(90deg, rgba(148, 225, 96, 1) 0%, rgba(16, 218, 159, 1) 100%);
 }
 
 .cardServices {
@@ -74,6 +99,17 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+
+.cardServices:hover {
+    transition: 1s;
+    background: rgb(148, 225, 96);
+    background: linear-gradient(193deg, rgba(148, 225, 96, 1) 0%, rgba(16, 218, 159, 1) 99%);
+    color: white;
+}
+
+.cardServices:hover i {
+    color: white;
 }
 
 .cardServices i {
