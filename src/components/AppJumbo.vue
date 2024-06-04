@@ -6,7 +6,5 @@
 </template>
 
 <style scoped>
-#jumbo {
-    margin-top: 10rem;
-}
+#jumbo {}
 </style>

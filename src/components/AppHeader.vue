@@ -73,7 +73,7 @@ button {
 
 header {
     height: 10rem;
-    position: absolute;
+    position: sticky;
     width: 100%;
     top: 0px;
 }
