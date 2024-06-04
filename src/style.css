@@ -5,7 +5,9 @@
 }
 
 body {
-  background-color: #222;
-  color: white;
   font-family: sans-serif;
+}
+
+.color-green {
+  color: rgba(16, 218, 159, 1);
 }

@@ -71,10 +71,6 @@ button {
     border-radius: 2rem;
 }
 
-.color-green {
-    color: rgba(16, 218, 159, 1);
-}
-
 header {
     height: 10rem;
     position: absolute;
