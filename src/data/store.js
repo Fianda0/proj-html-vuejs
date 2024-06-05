@@ -12,17 +12,20 @@ const ilMioOggettone = {
     slidesJumbo: [
         {
             image: 'Group-36-2x.png',
-            title: 'We Are a Web Designe Agency',
+            title: 'We Are a Web Designe ',
+            lastWord: 'Agency',
             text: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.Separated they live in Bookmarksgrove.'
         },
         {
             image: 'Group-40-2x.png',
-            title: 'A Group of Expert Planners',
+            title: 'A Group of Expert ',
+            lastWord: 'Planners',
             text: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.Separated they live in Bookmarksgrove.'
         },
         {
             image: 'Group-35-2x.png',
-            title: 'Focus on your business',
+            title: 'Focus on your ',
+            lastWord: 'business',
             text: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.Separated they live in Bookmarksgrove.'
         }
     ]

@@ -39,8 +39,14 @@ export default {
             <div class="row">
                 <div class="col-5 slideSx">
                     <p class="color-green">17 YEARS OF EXPERIENCE</p>
-                    <h2>{{ store.slidesJumbo[slideActive].title }}</h2>
-                    <hr class="line2">
+                    <div class="title">
+                        <h2>{{ store.slidesJumbo[slideActive].title }}</h2>
+                        <h2 class="color-green">{{ store.slidesJumbo[slideActive].lastWord }}</h2>
+                    </div>
+                    <div class="d-flex flex-row ">
+                        <hr class="line1">
+                        <hr class="line2">
+                    </div>
                     <p class="">{{ store.slidesJumbo[slideActive].text }}</p>
                     <span><button>Read More</button></span>
 
@@ -70,6 +76,11 @@ export default {
 </template>
 
 <style scoped>
+h2 {
+    font-size: 3rem;
+    display: inline;
+}
+
 img {
     width: 100%;
 }
@@ -81,7 +92,7 @@ p {
 
 hr {
     display: inline-block;
-    height: 0.5rem;
+    height: 5px;
     opacity: 1;
     border-radius: 1rem;
     background: rgb(148, 225, 96);
@@ -90,6 +101,7 @@ hr {
 
 .line1 {
     width: 15px;
+    margin-right: 1rem;
 }
 
 .line2 {
