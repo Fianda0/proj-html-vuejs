@@ -82,6 +82,7 @@ header {
     position: sticky;
     width: 100%;
     top: 0px;
+    z-index: 999;
 }
 
 #information {
@@ -94,6 +95,8 @@ header {
     height: 7rem;
     background-color: white;
     color: black;
+    border-bottom: 1px solid lightgray;
+
 }
 
 #navBar img {
