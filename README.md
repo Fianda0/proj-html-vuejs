@@ -9,8 +9,8 @@ Phlox pro è un sito di un agenzia web che si occupa della creazione e mauntanzi
 
 La progettazione del sito è stata divisa in 3 parti:
 - Giuseppe si cupato della creazione dell'Header, del Carosello e della sezione dei Servizi offerti.
-- Claudio si è occupato di Latest News & Our Blog e del Footer.Ho suddiviso la mia parte di progetto in 7 parti
-- Matteo si è occupato ...
+- Claudio si è occupato di Latest News & Our Blog e del Footer.Ho suddiviso la mia parte di progetto in 7 parti.
+- Matteo si è occupato della creazione del main ed è stata divisa in 5 parti.
 
 Il progetto è stato creato con l'utilizzo di javascript con le funzionalità di VUE e  VITE; Inoltre per lo style è stato utilizzato BOOTSTRAP.
 
@@ -52,3 +52,25 @@ ho creato un componente "cardImage" dove ho preso le immagini che ho messo in un
 struttura base in css, informazioni estrapolate da un array di oggetti nello store.js
 
 ---------- FASCIONE NERO CON SOCIAL costruito in html semplice con uno span sulla sinistra e 3 icone social sulla destra.
+
+CLAUDIO:
+
+----SEZIONE 1
+Divisa in due colonne: la prima colonna ci sono due immagini con il position: relative e il position: absolute sono riuscito a dare l'effetto sovrapposizione
+
+----SEZIONE 2
+Ho creato un Array di immagini per rendere le dimensioni delle immagini tutte uguali e con la proprietà hover, al passaggio del mouse le immagini vanno in scala 1:2
+
+----SEZIONE 3
+Con la funzione setInterval ho creato 3 contatori:
+il primo parte da 0 e arriva a 280,
+il secondo parte da 0 e arriva a 3600
+il terzo è in percentuale e parte da 0 e arriva a 100
+con la proprità startAnimations i contatori partono tutti insieme con un click
+
+----SEZIONE 4
+La sezione 4 è stata divisa in più colonne tramite Bootstrap e lo stile delle Card è stato fatto tramite css
+
+----SEZIONE 5
+L'ultima sezione è stata creata sovrapponendo un immagine e un background: black. Modificando le proprità del background ho dato quell'effetto di opacità
+può andare bene?
