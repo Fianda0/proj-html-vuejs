@@ -4,6 +4,15 @@
   margin: 0;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2,
+h1 {
+  font-family: Arial Rounded MT Bold;
+}
+
 .imgPerson1 {
   background-image: url(./assets/images/businesswoman-analysing-document-P8WSNMC-1024x820.jpg);
   background-size: cover;

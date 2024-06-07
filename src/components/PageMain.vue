@@ -145,7 +145,7 @@ export default {
 
 
 
-  <div class="container-fluis m-0 mt-5">
+  <div class="container-fluid m-0 mt-5">
     <div class="row" @click="startAnimations">
       <div class="col-6">
 
